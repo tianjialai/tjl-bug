@@ -1,0 +1,5 @@
+找到__init__.py,使用Notepad++打开，将提示的第75行进行更改：
+
+return s.decode(sys.__stdout__.encoding)
+应改为
+return s.decode('cp936')
